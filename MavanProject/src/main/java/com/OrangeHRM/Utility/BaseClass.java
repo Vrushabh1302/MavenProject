@@ -74,7 +74,7 @@ public class BaseClass  {
 	
 	
 	//after test case execute this method call
-	@AfterSuite(enabled= false)
+	@AfterSuite(enabled= true)
 	public void BrowserClose() {
 		driver.close();
 	}

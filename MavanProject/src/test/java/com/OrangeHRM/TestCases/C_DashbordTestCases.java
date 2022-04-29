@@ -14,7 +14,7 @@ import com.OrangeHRM.pages.B_LogIn;
 
 public class C_DashbordTestCases extends Reports{
 
-	@BeforeClass (enabled=true)
+	@BeforeClass (enabled=false)
 	public void Login() {
 		B_LogIn login=new B_LogIn();
 		login.Login(read.getProperty("ValidUsername"), read.getProperty("ValidPassword"));
